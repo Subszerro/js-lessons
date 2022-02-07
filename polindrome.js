@@ -9,4 +9,4 @@ const polidrom = function (str) {
 };
 
 console.log(polidrom('Оно'));
-console.log(polidrom('Они'));
+console.log(polidrom('Он'));
