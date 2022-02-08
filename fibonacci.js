@@ -1,6 +1,6 @@
 'use strict';
 
-const fibonacci = num => {
+const fibonacci = function (num) {
     const result = [0, 1];
 
     for (let i = 2; i <= num; i++) {
