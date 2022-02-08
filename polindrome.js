@@ -1,6 +1,6 @@
 'use strict';
 
-const polidrom = function (str) {
+const polindrome = function (str) {
     str = str.toLowerCase();
     if (str.split('').reverse().join('') === str) {
         return true;
@@ -8,5 +8,5 @@ const polidrom = function (str) {
     return false;
 };
 
-console.log(polidrom('Оно'));
-console.log(polidrom('Он'));
+console.log(polindrome('Оно'));
+console.log(polindrome('Он'));
